@@ -1,0 +1,70 @@
+.episodePage {
+    margin: 90px 30px;
+}
+
+.episodePage__container {
+    width: min(1020px, 100%);
+    margin: 0 auto;
+}
+
+.episodePage__header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: start;
+}
+
+.episodePage__back{
+    border: none;
+    background: none;
+    text-align: start;
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.episodePage h1{
+    color: #081f32;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.episodePage__info{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.episodePage__infoTitle{
+    color: #081f32;
+    display: block;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.episodePage__text {
+    color: #6e798c;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+}
+
+.episodePage__content{
+    margin-top: 64px;
+}
+
+.episodePage__content h2 {
+    color: #8e8e93;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.episodePage__cards{
+    display: grid;
+    gap: 20px 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 24px;
+}

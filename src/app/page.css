@@ -1,0 +1,47 @@
+.mainPage {
+    margin: 90px 0 40px;
+}
+
+.mainPage__container {
+    width: min(1020px, 100%);
+    margin: 0 auto;
+}
+
+.mainPage__container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.mainPage__content {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px 20px;
+}
+
+.mainPage__filters {
+    margin-top: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.mainPage__button{
+    display: block;
+    margin: 48px auto 0;
+    padding: 10px 32px;
+    color:rgb(52, 119, 213);
+    border: none;
+    font-size: 14px;
+    background: #F2F9FE;
+    box-shadow: 
+        0px 3px 5px rgba(0, 0, 0, 0.2), 
+        0px 1px 18px rgba(0, 0, 0, 0.12), 
+        0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.mainPage__button:hover{
+    background: #d3e9f9;
+}

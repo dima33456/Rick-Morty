@@ -1,0 +1,60 @@
+.characterPage {
+    margin: 90px 30px;
+}
+
+.characterPage__container {
+    width: min(1020px, 100%);
+    margin: 0 auto;
+}
+
+.characterPage__header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: start;
+}
+
+.characterPage__back{
+    border: none;
+    background: none;
+    text-align: start;
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.characterPage__img{
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #f2f2f7;
+}
+
+.characterPage__title{
+    margin-top: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.characterPage__mainInfo{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.characterPage__content{
+ margin: 42px auto 0;
+ width: min(840px, 100%);
+ grid-template-columns: 1fr 1fr;
+ display: grid;
+}
+
+.characterPage__content h3{
+    margin-bottom: 36px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #8e8e93;
+}

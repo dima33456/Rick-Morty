@@ -1,0 +1,38 @@
+.infoCard {
+    color: #000;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid #ededed;
+}
+
+.infoCard__title{
+    color: #0b1f32;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.infoCard__text{
+    display: block;
+    color: #6e798c;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.infoCard__date{
+    display: block;
+    margin-top: 2px;
+    color: #8e8e93;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+}
+
+.infoCard__symbol{
+    color: #8e8e93;
+}
